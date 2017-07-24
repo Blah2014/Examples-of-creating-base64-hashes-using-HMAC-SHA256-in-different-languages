@@ -2,34 +2,6 @@
 
 ---
 author: jokecamp
-comments: true
-date: 2012-10-22 02:36:37+00:00
-layout: post
-slug: examples-of-creating-base64-hashes-using-hmac-sha256-in-different-languages
-title: Examples of creating base64 hashes using HMAC SHA256 in different languages
-desc: "A list of code examples in various languages that demonstrate how to create base64 hashes using HMAC SHA256. Compare the different coding languages."
-wordpress_id: 416
-categories:
-- Code
-tags:
-- C#
-- powershell
-- dart
-- go
-- hmac
-- java
-- javascript
-- objectiveC
-- perl
-- php
-- python
-- rest
-- ruby
-- security
-- sha256
-- swift
-featured: true
----
 
 I recently went through the processing of creating SDKs for an in house API. The API required signing every REST request with HMAC SHA256 signatures. Those signatures then needed to be converted to base64. Amazon S3 uses base64 strings for their hashes. There are some good reasons to use base64 encoding. See the stackOverflow question [What is the use of base 64 encoding?](http://stackoverflow.com/a/201510/215502)
 
