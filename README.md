@@ -2,6 +2,7 @@
 
 ---
 author: jokecamp
+[Original blog](https://www.jokecamp.com/blog/examples-of-creating-base64-hashes-using-hmac-sha256-in-different-languages/#js)
 
 I recently went through the processing of creating SDKs for an in house API. The API required signing every REST request with HMAC SHA256 signatures. Those signatures then needed to be converted to base64. Amazon S3 uses base64 strings for their hashes. There are some good reasons to use base64 encoding. See the stackOverflow question [What is the use of base 64 encoding?](http://stackoverflow.com/a/201510/215502)
 
