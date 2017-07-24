@@ -1,4 +1,4 @@
-# Examples-of-creating-base64-hashes-using-HMAC-SHA256-in-different-languages
+# Examples of creating base64 hashes using HMAC-SHA256 in different languages
 
 ---
 author: jokecamp
